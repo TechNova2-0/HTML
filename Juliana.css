@@ -1,0 +1,101 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp5608199.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  
+  div.botoes {
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  }
+  
+  div.titulo { 
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    background: linear-gradient(45deg, #000000, #ff0000); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center; 
+    margin-top: 20vh; 
+    text-transform: uppercase; 
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+      }
+  
+  a{
+  text-decoration: none;
+  color:black;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  }
+  a:hover{
+      color:rgb(111, 8, 8);
+      background-color: rgb(234, 223, 223);
+      border: 4%x solid rgb(111, 8, 8);
+  }
+  
+  .conteudo {
+    height: 600px; 
+    padding: 20px;
+}
+
+div.barra{
+
+.styled-phrase {
+  font-family: 'Arial', sans-serif; 
+  font-size: 18px;
+  color: #000000; 
+  line-height: 1.5; 
+  justify-content: center;
+  align-items: center;
+  width: 738;
+  background-color: rgba(247, 247, 247, 0.404);
+  padding: 10px; 
+  border: 2px solid #950606;
+  border-radius: 25px;
+  margin: 20px 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+.styled-phrase:hover {
+  background-color: #e0e0e0;
+    color: #000;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5; 
+    margin: 0;
+}
+.styled-input {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.2em; 
+    padding: 15px 25px; 
+    width: 50%; 
+    border: 2px solid #950606; 
+    border-radius: 25px; 
+    outline: none; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+.styled-input:focus {
+    border-color: #950606af; 
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+.styled-input::placeholder {
+    color: #aaa; 
+    font-style: italic; 
+}
+}
