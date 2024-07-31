@@ -1,27 +1,21 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <title> Livros Online </title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
+    <meta charset="utf-8"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Livros Online </title>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
-<body>
-<div class="tres">
-  <nav id="menu">
-    <ul>
-      <li><a href="home.html">HOME</a></li>
-      <li><a >PUBLICAR</a></li>
-      <li><a>LOGIN</a></li>
-    </ul>
-</div>
-
-  <div class="classic"> 
- <h1>CONHECIMENTO</h1>
-</div>
-</body>
-
+  <div class="botoes">
+    <a href="home.html">HOME</a>
+    <a href="livros.html">LIVROS</a>
+    <a href="publicar.html">PUBLICAR</a>
+  </div>
+  <body>
+    <div class="titulo"> 
+    <h1>conhecimento</h1>
+  </div>
+  <div class="conteudo">
+  </div>
+  </body>	
 </html>
