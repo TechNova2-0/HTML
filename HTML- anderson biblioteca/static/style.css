@@ -1,0 +1,141 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp5608199.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  
+  .botoes {
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  }
+  div.titulo2 { 
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    background: linear-gradient(45deg, #ff0000, #000000); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center; 
+    margin-top: 20vh; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+      }
+    
+  
+  a{
+  text-decoration: none;
+  color:black;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  }
+  a:hover{
+      color:rgb(111, 8, 8);
+      background-color: rgb(234, 223, 223);
+      border: 4%x solid rgb(111, 8, 8);
+  }
+  
+.conteudo3 {
+  height: 100px;
+  padding: 20px;
+}
+
+
+.book-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-item {
+  width: 200px;
+  text-align: center;
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.book-item img:hover {
+  transform: scale(1.05);
+}
+
+.book-item p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.book-item a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+/* Parte do texto e imagem do livro Dom Quixote*/
+.container {
+  display: flex;
+  width: 95%;
+  margin-left: 2% ;
+}
+
+.image-section {
+  flex: 3;  
+}
+
+.img_dom{
+  border-radius: 5rem;
+  height: 100px;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.text-section {
+  font-family: 'Arial', sans-serif; 
+  font-size: 18px;
+  color: #000000; 
+  line-height: 1.5; 
+  justify-content: center;
+  align-items: center;
+  width: 738;
+  background-color: rgba(247, 247, 247, 0.404);
+  padding: 10px; 
+  border: 2px solid #950606;
+  border-radius: 25px;
+  margin: 20px 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.text-section h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #000000;
+}
+
+.text-section p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: #b30303;
+}
+
+.text-section:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
