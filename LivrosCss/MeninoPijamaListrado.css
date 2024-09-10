@@ -3,6 +3,8 @@ background: linear-gradient(90deg, #75aff2 0%, #e7e7ea 100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+max-width: 100%;
+overflow-x: hidden;
 }
 
 .botoes {
@@ -144,4 +146,23 @@ y
 .butao:hover {
 background-color: #e0e0e0;
 color: #000;
+}
+
+.voltar {
+display: felx;
+padding: 10px;
+background-color: #29454500; 
+color: #000000;
+border: none;
+cursor: pointer;
+font-size: 30px;
+line-height: 20px;
+text-align: left;
+position: absolute;
+left: 7;
+transition: background-color 0.3s;
+}
+
+.voltar::before {
+content: '←';
 }

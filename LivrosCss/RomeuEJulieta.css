@@ -3,6 +3,8 @@ background: linear-gradient(90deg, #F27C25 0%, #6E2E50 100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+max-width: 100%;
+overflow-x: hidden;
 }
 
 .botoes {
@@ -75,10 +77,10 @@ color: inherit;
 
 /* Parte do texto e imagem do livro */
 .container {
-    display: flex;
-    width: 50%;
-    height: auto; 
-    margin: 5px;
+display: flex;
+width: 50%;
+height: auto; 
+margin: 5px;
 }
 
 .container2 {
@@ -139,8 +141,28 @@ cursor: pointer;
 transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 margin: 10px;
 }
+
 y
 .butao:hover {
 background-color: #e0e0e0;
 color: #000;
+}
+
+.voltar {
+display: felx;
+padding: 10px;
+background-color: #29454500; 
+color: #000000;
+border: none;
+cursor: pointer;
+font-size: 30px;
+line-height: 20px;
+text-align: left;
+position: absolute;
+left: 7;
+transition: background-color 0.3s;
+}
+
+.voltar::before {
+content: '←';
 }
